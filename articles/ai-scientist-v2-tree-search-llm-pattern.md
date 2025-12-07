@@ -3,7 +3,7 @@ title: "AI Scientist-v2から学ぶ「探索的生成」の実装パターン - 
 emoji: "🌳"
 type: "tech"
 topics: ["LLM", "AI", "TreeSearch", "Python", "機械学習"]
-published: false
+published: true
 ---
 
 ## はじめに
