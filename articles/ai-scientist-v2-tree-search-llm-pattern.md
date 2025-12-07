@@ -1,5 +1,5 @@
 ---
-title: "AI Scientist-v2から学ぶ「探索的生成」の実装パターン - Tree SearchとLLMで記事品質を安定向上させる技術"
+title: "LLMの「一発書き」を卒業する。AI Scientistに学ぶ「探索的生成(Tree Search)」の実装戦略"
 emoji: "🌳"
 type: "tech"
 topics: ["LLM", "AI", "TreeSearch", "Python", "機械学習"]
@@ -13,7 +13,7 @@ LLMアプリケーションの開発において、単発生成による出力�
 本記事では、AI Scientist-v2で採用されている「探索的アプローチ」を**記事生成タスクに応用**する手法を解説します。AI Scientist-v2は本来、科学実験の自動化（コード生成・実行・改善）にTree Searchを活用していますが、この探索アーキテクチャの本質である「候補展開→評価→選択→剪定」のサイクルは、テキスト生成タスクにも有効に適用できます。
 
 本記事で紹介する実装のソースコードは [GitHub](https://github.com/hszk-dev/ai-tech-writer) で公開しています。
-
+　
 ## なぜLLMに「探索」が必要なのか - 単発生成の限界
 
 ![ツリーサーチ](/images/ツリーサーチ.jpg)
